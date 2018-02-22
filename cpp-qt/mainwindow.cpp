@@ -60,9 +60,8 @@ void MainWindow::on_RunButton_clicked()
             // Clear file
             writeFile.resize(0);
 
-            if (!newlineSet) {
+            if (!votesFilePath.contains('\n')) {
                 votesFilePath += " \n";
-                newlineSet = true;
             }
 
             // Write filepath and sheetname and close

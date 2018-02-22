@@ -35,10 +35,10 @@ private:
     QString writeFilePath = "vote_data_filepath.txt";
     QString resultsFilePath = "results.txt";
     QString votesFilePath = "";
+    QString oldVoteFilePath;
     QString sheetName;
     bool sheetNameSet = false;
     bool filepathSet = false;
-    bool newlineSet = false;
 
 private slots:
     void on_OpenFileButton_clicked();
