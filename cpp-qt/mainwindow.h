@@ -35,7 +35,6 @@ private:
     QString writeFilePath = "vote_data_filepath.txt";
     QString resultsFilePath = "results.txt";
     QString votesFilePath = "";
-    QString oldVoteFilePath;
     QString sheetName;
     bool sheetNameSet = false;
     bool filepathSet = false;
